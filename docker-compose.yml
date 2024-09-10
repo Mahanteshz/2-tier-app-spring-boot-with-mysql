@@ -1,7 +1,7 @@
 version: "3"
 services:
   application:
-    image: spring-boot-mysql-app
+    image: my-2-tier-project:latest
     ports:
       - "8080:8080"
     networks:
